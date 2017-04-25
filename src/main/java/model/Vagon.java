@@ -33,11 +33,10 @@ public class Vagon {
 
     //Konstruktori
     public Vagon(){}
-    public Vagon(String oznaka, String opis, double nosivost, double teret){
+    public Vagon(String oznaka, String opis, double nosivost){
         this.oznaka = oznaka;
         this.opis = opis;
         this.nosivost = nosivost;
-        this.teret = teret;
     }
 
     //Get/Set

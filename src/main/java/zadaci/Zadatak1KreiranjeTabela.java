@@ -22,7 +22,7 @@ public class Zadatak1KreiranjeTabela {
             TableUtils.dropTable(connectionSource, Voz.class,true);
 
             TableUtils.createTable(connectionSource, Voz.class);
-            TableUtils.createTable(connectionSource,Vagon.class);
+            TableUtils.createTable(connectionSource, Vagon.class);
 
         } catch (SQLException e) {
             e.printStackTrace();

@@ -24,7 +24,7 @@ public class Voz {
     private String naziv;
 
     //Atribut za povezivanje Voz-Vagon
-    @ForeignCollectionField(foreignFieldName = "vagon")
+    @ForeignCollectionField(foreignFieldName = "voz")
     private ForeignCollection<Vagon> vagon;
 
     //Konstruktori
@@ -35,10 +35,10 @@ public class Voz {
     }
 
     //Get/Set
-    public int getId(){return  id;}
+    public int getId(){return id;}
     public void setId(int id){this.id = id;}
 
-    public String getOznaka(){return  oznaka;}
+    public String getOznaka(){return oznaka;}
     public void setOznaka(String oznaka){this.oznaka = oznaka;}
 
     public String getNaziv(){return naziv;}
