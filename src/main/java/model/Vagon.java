@@ -53,7 +53,7 @@ public class Vagon {
     public void setNosivost(double nosivost){this.nosivost = nosivost;}
 
     public double getTeret(){return  teret;}
-    public void setPoljeTeret(double teret){this.teret = teret;}
+    public void setTeret(double teret){this.teret = teret;}
 
     //Povezivanje sa klasom Voz
     public Voz getVoz() {
@@ -72,5 +72,6 @@ public class Vagon {
                 ", teret=" + teret +
                 '}';
     }
+
 
 }
